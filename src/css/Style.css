@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(145, 209, 211);
+}
+*{
+    box-sizing: border-box;
+}
+/* html{
+    Font-size: 30px;
+} */
+h1,h2,h3{
+    text-align: center;
+}
+h2 {
+    color: red;
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+    /* text-decoration: line-through; */
+    /* Text decoraion underline */
+    font-size: 30px;
+
+}
+
+.chapter {
+    color: rgba(255, 20, 147, 1);
+}
+
+#begin {
+    color: orange;
+    font-weight: bold;
+}
+
+.text{
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.box {    
+    /* position: absolute; */
+    display: inline-block;
+    /* vertical-align: top ; */
+    vertical-align: middle;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(63, 161, 63);
+    padding: 20px; /* Вверх право вниз влево *по часовй стрелке */    
+    border: 3px solid black;
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: black; */
+    /* Комбинированные  */
+    margin: 20px;
+    z-index: 3;
+}
+
+.pink{
+    color: pink;
+}
+/* Блочные  элементы*/
+/* Строчные элементы*/
+/* Строчное-блочные элементы*/
+a{
+    Padding:20px;
+    margin:20px;
+    width:500px ;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    /* float: left; */
+    /* float: right; */
+}
+nav{/* Static, Relative, Absolute, fixed, inherit */
+    position: inherit; 
+    right: 0px;
+    top: 50px;
+    /* Left: 130px;
+    top: 150px; */
+    /* Bottom, top, right left */
+}
+
+.red{
+    /* position: absolute;
+    left: 30px; */
+    background-color: red;
+   /*  Font-size: 30px; */
+    width: 50vw;
+    height: 30vh;
+    /* width: 50rem; */
+    /* height: 100px; */
+    /* z-index: 4; */
+
+
+}
+.example {
+    position: relative;
+    
+}
